@@ -1,7 +1,7 @@
 # pingscript
 Logs and archives ping results on a Linux system. I suggest setting parameters at the top of the file, then running once from terminal to ensure it functions as expected.
 
-Intended use: as a cron job. Example line in crontab (substitute your path):
+Intended use: as a cron job. Example line in crontab (substitute your path):  
 */2 15-23 * * * python3.8 /home/you/path/to/pingscript.py
 
 Suggested extras: Append tail pingtimes to your ~/.bash_aliases, or a combined ping.
